@@ -2,7 +2,7 @@ import { Laptop } from "lucide-react";
 
 export default function CardHero1() {
   return (
-    <div className="p-8 bg-white border border-neutral-200 rounded-2xl shadow-lg w-[320px] md:w-120 lg:w-150">
+    <div className="p-8 h-full bg-white border border-neutral-200 rounded-2xl shadow-lg w-[320px] md:w-100 lg:w-125">
       <div id="title" className="flex items-center gap-2 mb-4">
         <Laptop className="w-8 h-8 text-indigo-500" />
         <h2 className="text-neutral-950 text-xl md:text-2xl font-semibold">

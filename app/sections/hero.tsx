@@ -1,4 +1,6 @@
 import CardHero1 from "../components/card-hero-1";
+import CardHero2 from "../components/card-hero-2";
+import CardHero3 from "../components/card-hero-3";
 import ButtonPrimary from "../components/primarybutton";
 import ButtonSecondary from "../components/secondarybutton";
 
@@ -22,8 +24,16 @@ export default function Hero() {
         <ButtonSecondary title="Experimente grátis" href="#" />
       </div>
 
-      <div id="dashboard" className="mt-8">
-        <CardHero1 />
+      <div id="dashboard" className="mt-16">
+        <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center bg-[url('/bg-hero.jpg')] bg-no-repeat bg-center bg-contain lg:p-16 px-4 py-16 rounded-4xlxl">
+          <div id="left">
+            <CardHero1 />
+          </div>
+          <div id="right" className="flex flex-col gap-4">
+            <CardHero2 />
+            <CardHero3 />
+          </div>
+        </div>
       </div>
     </section>
   );
