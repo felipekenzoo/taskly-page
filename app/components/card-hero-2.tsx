@@ -7,8 +7,8 @@ export default function CardHero2() {
       <Image
         src="/profile-hero.jpg"
         alt="Profile Picture"
-        width={64}
-        height={64}
+        width={1240}
+        height={1240}
         quality={100}
         priority
         className="rounded-full w-24 h-24 lg:w-32 lg:h-32 object-cover"
