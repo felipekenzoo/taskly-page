@@ -1,3 +1,4 @@
+import Dashboard from "./sections/dashboard";
 import Features from "./sections/features";
 import Header from "./sections/header";
 import Hero from "./sections/hero";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Testimonials />
+      <Dashboard />
     </main>
   );
 }

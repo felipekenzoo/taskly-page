@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CardHero2() {
   return (
-    <div className="p-8 bg-white border flex flex-col items-center border-neutral-200 rounded-2xl shadow-lg w-[320px] md:w-100 lg:w-125">
+    <div className="p-8 h-full bg-white border border-neutral-200 rounded-2xl shadow-lg w-[320px] md:w-100 lg:w-125">
       <Image
         src="/profile-hero.jpg"
         alt="Profile Picture"

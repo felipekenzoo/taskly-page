@@ -27,7 +27,7 @@ export default function Hero() {
         <ButtonSecondary title="Experimente grátis" href="#" />
       </div>
 
-      <div id="dashboard" className="mt-4 lg:mt-16">
+      <div id="dashboard" className="mt-4 lg:mt-24 w-full flex justify-center">
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center bg-[url('/bg-hero.jpg')] bg-no-repeat bg-center bg-contain lg:p-16 px-4 py-16 rounded-4xl">
           <div id="left">
             <CardHero1 />
