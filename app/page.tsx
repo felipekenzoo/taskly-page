@@ -2,6 +2,7 @@ import Dashboard from "./sections/dashboard";
 import Features from "./sections/features";
 import Header from "./sections/header";
 import Hero from "./sections/hero";
+import Plans from "./sections/plans";
 import Testimonials from "./sections/testimonials";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Features />
       <Testimonials />
       <Dashboard />
+      <Plans />
     </main>
   );
 }
