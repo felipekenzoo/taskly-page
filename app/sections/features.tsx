@@ -4,7 +4,7 @@ import Feature from "../components/feature";
 
 export default function Features() {
   return (
-    <section className="bg-neutral-50 py-16 lg:pt-32 flex flex-col items-center justify-center px-6 md:px-12 lg:px-28 lg:pb-32">
+    <section id="features" className="bg-neutral-50 py-16 lg:pt-32 flex flex-col items-center justify-center px-6 md:px-12 lg:px-28 lg:pb-32">
       <Hat icon={<Zap size={20} />} title="Diferenciais" />
       <div className="flex flex-col items-center text-wrap justify-center lg:max-w-240 pt-8">
         <h1 className="text-neutral-950 text-center font-semibold text-3xl md:text-4xl lg:text-6xl lg:max-w-2xl mb-6">

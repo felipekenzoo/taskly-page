@@ -6,7 +6,7 @@ import Carroussel from "../components/carroussel";
 
 export default function Testimonials() {
   return (
-    <section className="bg-neutral-50 py-16 lg:py-16 px-6 md:px-12 lg:px-28">
+    <section id="testimonials" className="bg-neutral-50 py-16 lg:py-16 px-6 md:px-12 lg:px-28">
       <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
         <Hat icon={<UsersRoundIcon size={20} />} title="Depoimentos" />
 
