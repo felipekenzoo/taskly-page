@@ -13,8 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Taskly - Gerenciamento para Freelancers",
-  description: "Plataforma de gestão para freelancers - Organize seus projetos, finanças e prazos de forma simples e intuitiva.",
+  title: "Taskly | Gestão de tarefas e financeiro para freelancers",
+  description:
+    "Taskly é uma plataforma para organizar demandas, tarefas e acompanhar o financeiro de freelancers em um só lugar.",
+  openGraph: {
+    title: "Taskly | Gestão de tarefas e financeiro para freelancers",
+    description:
+      "Organize demandas, tarefas e acompanhe seu financeiro de forma simples e direta.",
+    url: "https://taskly.com",
+    siteName: "Taskly",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Taskly - gestão de tarefas e financeiro",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Taskly | Gestão de tarefas e financeiro para freelancers",
+    description:
+      "Organize demandas, tarefas e acompanhe seu financeiro de forma simples e direta.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

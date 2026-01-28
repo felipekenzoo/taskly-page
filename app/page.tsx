@@ -1,5 +1,7 @@
 import Dashboard from "./sections/dashboard";
 import Features from "./sections/features";
+import FreeTrial from "./sections/final-cta";
+import Footer from "./sections/footer";
 import Header from "./sections/header";
 import Hero from "./sections/hero";
 import Plans from "./sections/plans";
@@ -14,6 +16,8 @@ export default function Home() {
       <Testimonials />
       <Dashboard />
       <Plans />
+      <FreeTrial />
+      <Footer />
     </main>
   );
 }
